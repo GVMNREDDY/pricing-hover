@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Choose Your Plan</h1>
+    </header>
+
+    <main>
+        <table class="pricing-plan" id="basic-plan">
+            <caption><b>Basic Plan</b></caption>
+            <tr>
+                <td class="price">$9.99/month</td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+            </tr>
+            <tr>
+                <td>Feature 2</td>
+            </tr>
+            <tr>
+                <td>Feature 3</td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="toggle-button" onclick="togglePlan('basic-plan')">Select Plan</button>
+                </td>
+            </tr>
+        </table>
+
+        <table class="pricing-plan" id="standard-plan">
+            <caption><b>Standard Plan</b></caption>
+            <tr>
+                <td class="price">$19.99/month</td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+            </tr>
+            <tr>
+                <td>Feature 2</td>
+            </tr>
+            <tr>
+                <td>Feature 3</td>
+            </tr>
+            <tr>
+                <td>Feature 4</td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="toggle-button" onclick="togglePlan('standard-plan')">Select Plan</button>
+                </td>
+            </tr>
+        </table>
+
+        <table class="pricing-plan" id="premium-plan">
+            <caption><b>Premium Plan</b></caption>
+            <tr>
+                <td class="price">$29.99/month</td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+            </tr>
+            <tr>
+                <td>Feature 2</td>
+            </tr>
+            <tr>
+                <td>Feature 3</td>
+            </tr>
+            <tr>
+                <td>Feature 4</td>
+            </tr>
+            <tr>
+                <td>Feature 5</td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="toggle-button" onclick="togglePlan('premium-plan')">Select Plan</button>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
